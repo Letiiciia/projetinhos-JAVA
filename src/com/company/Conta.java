@@ -1,16 +1,27 @@
 package com.company;
 
-import java.math.BigDecimal;
-
 public class Conta {
+    Cliente titular;
     long agencia;
     long numeroConta;
-    BigDecimal saldo;
+    double saldo;
 
-    public Conta(long agencia, long numeroConta){
+    public Conta(Cliente titular, long agencia, long numeroConta){
+        this.titular = titular;
         this.agencia = agencia;
         this.numeroConta = numeroConta;
-        this.saldo = new BigDecimal(0.0);
+        this.saldo = 0.0;
     }
 
+    public void sacar(double valor){
+        if(valor <= this.saldo){
+            this.saldo -= valor;
+        }else{
+            System.out.println("Limite indisponível para saque");
+        }
+    }
+
+    public void depositar(double valor){
+        this.saldo += valor;
+    }
 }

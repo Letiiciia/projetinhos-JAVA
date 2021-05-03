@@ -1,6 +1,15 @@
 package com.company;
 
 public class Cliente {
-    public String nome;
-    public String cpf;
+    String nome;
+    long cpf;
+    long rg;
+
+    public Cliente(String nome, long cpf, long rg){
+    this.nome = nome;
+    this. cpf = cpf;
+    this.rg = rg;
+    }
+
+
 }
