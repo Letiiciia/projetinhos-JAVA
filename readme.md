@@ -1,6 +1,5 @@
-<p align="center">
-## Conta Bancaria - JAVA(POO)
-</p>
+<h1 align="center"> Conta Bancaria - JAVA(POO)
+</h1>
 <p align="center"> 
 <img src="https://github.com/Letiiciia/projeto-contaBancaria-JAVA/blob/master/img/download.png" height="25%" width ="25%">
 </p>
