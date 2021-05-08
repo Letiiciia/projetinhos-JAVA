@@ -7,8 +7,8 @@
 O projetinho consiste na criação de uma conta bancária (conta sálario, conta poupança, entre outras) e o chamado dos métodos possíveis das Classes Contas (sacar, depositar, transferir, entre outros).
 Na classe <b>Main</b> é possível a criação do titular da conta e da conta em sí. Podemos brincar de transferir valores entre as contas, com  o método pix, sacar e depositar valores.
 <br>
-Os dados do títular consistem em: Nome, CPF e RG<br>
-Os dados da conta consistem em: Títular, Agência e Número da Conta<br>
+Os dados do titular consistem em: Nome, CPF e RG<br>
+Os dados da conta consistem em: Titular, Agência e Número da Conta<br>
 
 ```json
   #Criação da conta e print dos dados da conta.
@@ -25,7 +25,7 @@ Os dados da conta consistem em: Títular, Agência e Número da Conta<br>
 ```
 
 ```json
-  #chamado dos metodos de interação da conta.
+  #chamado dos métodos de interação da conta.
         
     contaDaLeticia.depositar(200.0);
     System.out.println(contaDaLeticia.getSaldo());
