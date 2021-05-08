@@ -8,9 +8,12 @@ O projetinho consiste na criação de uma conta bancária (conta sálario, conta
 Na classe Main é possível a criação do titular da conta e da conta em sí. Podemos brincar de transferir valores entre as contas, com  o método pix, sacar e depositar valores.
 <br>
 ```json
-Modelo de criação da conta e print dos dados da conta.
+  #Criação da conta e print dos dados da conta.
+
     Cliente titularLeticia = new Cliente("Letícia Ferreira Lima", 1111111111L , 3592044L);
+        
     Conta contaDaLeticia = new Conta(titularLeticia,65987L, 569748L);
+        
     System.out.println(contaDaLeticia.getTitular().getNome());
     System.out.println(contaDaLeticia.getTitular().getCpf());
     System.out.println(contaDaLeticia.getTitular().getRg());
@@ -19,9 +22,11 @@ Modelo de criação da conta e print dos dados da conta.
 ```
 
 ```json
-Modelo de chamamento dos metodos de interação da conta.
+  #chamado dos metodos de interação da conta.
+        
     contaDaLeticia.depositar(200.0);
     System.out.println(contaDaLeticia.getSaldo());
+        
     contaDaLeticia.sacar(100.0);
     System.out.println("Saldo da Le: " + contaDaLeticia.getSaldo());
             
