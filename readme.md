@@ -1,5 +1,9 @@
 ## Conta Bancaria - JAVA(POO)
 
+<p align="center"> 
+<img src="https://github.com/Letiiciia/projeto-contaBancaria-JAVA/blob/master/img/download.png" height="50%" width ="50%">
+</p>
+
 O projetinho consiste na criação de uma conta bancária (conta sálario, conta poupança, entre outras) e o chamado dos métodos possíveis das Classes Contas (sacar, depositar, transferir, entre outros).
 Na classe Main é possível a criação do titular da conta e da conta em sí. Podemos brincar de transferir valores entre as contas, com  o método pix, sacar e depositar valores.
 <br>
