@@ -1,7 +1,7 @@
 ## Conta Bancaria - JAVA(POO)
 
 <p align="center"> 
-<img src="https://github.com/Letiiciia/projeto-contaBancaria-JAVA/blob/master/img/download.png" height="50%" width ="50%">
+<img src="https://github.com/Letiiciia/projeto-contaBancaria-JAVA/blob/master/img/download.png" height="25%" width ="25%">
 </p>
 
 O projetinho consiste na criação de uma conta bancária (conta sálario, conta poupança, entre outras) e o chamado dos métodos possíveis das Classes Contas (sacar, depositar, transferir, entre outros).
